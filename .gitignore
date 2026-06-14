@@ -1,1 +1,18 @@
-venv
+# Environment
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# RAG data and generated index
+data/
+vectorstore/
+
+# Chainlit
+.files/
+
+# OS
+.DS_Store
